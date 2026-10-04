@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaaS Pricing Plans</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="pricing-container">
+
+        <h1>Choose Your Plan</h1>
+        <p class="subtitle">Simple pricing for every stage of your journey.</p>
+
+        <div class="billing-toggle">
+            <span>Monthly</span>
+
+            <label class="switch">
+                <input type="checkbox" id="billingToggle">
+                <span class="slider"></span>
+            </label>
+
+            <span>Yearly</span>
+            <span class="save">Save 20%</span>
+        </div>
+
+        <div class="pricing-cards">
+
+            <!-- Starter -->
+            <div class="pricing-card">
+                <h2>Starter</h2>
+                <p class="description">
+                    For individuals getting started.
+                </p>
+
+                <div class="price">
+                    <span class="currency">₹</span>
+                    <span class="amount"
+                          data-monthly="499"
+                          data-yearly="399">499</span>
+                    <span class="period">/month</span>
+                </div>
+
+                <button>Get Started</button>
+
+                <ul>
+                    <li>✓ 5 Projects</li>
+                    <li>✓ Basic Analytics</li>
+                    <li>✓ Email Support</li>
+                    <li>✓ 1 GB Storage</li>
+                </ul>
+            </div>
+
+
+            <!-- Professional -->
+            <div class="pricing-card popular">
+
+                <div class="badge">Popular</div>
+
+                <h2>Professional</h2>
+
+                <p class="description">
+                    For growing teams and businesses.
+                </p>
+
+                <div class="price">
+                    <span class="currency">₹</span>
+                    <span class="amount"
+                          data-monthly="999"
+                          data-yearly="799">999</span>
+                    <span class="period">/month</span>
+                </div>
+
+                <button>Start Free Trial</button>
+
+                <ul>
+                    <li>✓ Unlimited Projects</li>
+                    <li>✓ Advanced Analytics</li>
+                    <li>✓ Priority Support</li>
+                    <li>✓ 20 GB Storage</li>
+                </ul>
+            </div>
+
+
+            <!-- Business -->
+            <div class="pricing-card">
+
+                <div class="badge best">Best Value</div>
+
+                <h2>Business</h2>
+
+                <p class="description">
+                    For established businesses.
+                </p>
+
+                <div class="price">
+                    <span class="currency">₹</span>
+                    <span class="amount"
+                          data-monthly="1999"
+                          data-yearly="1599">1999</span>
+                    <span class="period">/month</span>
+                </div>
+
+                <button>Choose Business</button>
+
+                <ul>
+                    <li>✓ Everything in Professional</li>
+                    <li>✓ Team Management</li>
+                    <li>✓ 24/7 Support</li>
+                    <li>✓ 100 GB Storage</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
